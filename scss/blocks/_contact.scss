@@ -1,0 +1,22 @@
+.contacts {
+    padding: 50px 0;
+    background-color: $grey;
+    @include mediaTabletS{
+        padding: 30px 0;
+    }
+    @include mediaMobileL{
+        padding: 15px 0;
+    }
+}
+.contact__content {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    @include mediaMobileL{
+        grid-template-columns: 1fr;
+        gap: 20px;
+        justify-items: center;
+    }
+
+}

@@ -1,0 +1,34 @@
+@mixin mediaTablet {
+    @media screen and (max-width: $tablet) {
+        @content;
+    }
+}
+@mixin mediaTabletL {
+    @media screen and (max-width: $tablet_l) {
+        @content;
+    }
+}
+@mixin mediaTabletS {
+    @media screen and (max-width: $tablet_s) {
+        @content;
+    }
+}
+@mixin mediaMobileL {
+    @media screen and (max-width: $mobile_l) {
+        @content;
+    }
+}
+@mixin mediaMobile {
+    @media screen and (max-width: $mobile) {
+        @content;
+    }
+}
+@mixin mediaMobileS {
+    @media screen and (max-width: $mobile_s) {
+        @content;
+    }
+}
+//container
+@mixin container($padding){
+    padding: 0 $padding;
+}

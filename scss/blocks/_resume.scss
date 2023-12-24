@@ -1,0 +1,56 @@
+.resume {
+    margin-bottom: 50px;
+}
+.resume__content {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+    @include mediaTabletS{
+        gap: 25px;
+    }
+    @include mediaMobileL{
+        grid-template-columns: 1fr;
+    }
+}
+.resume__block{
+    padding-left: 5px;
+}
+.resume__block--title {
+    color: #778da9;
+    font-size: 16px;
+    font-family: $font-second;
+    text-transform:uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 15px;
+}
+.resume__item {
+    color: $blue;
+    position: relative;
+    border-left: 2px solid $grey;
+    padding-left: 1.5rem;
+    padding-bottom: 2rem;
+}
+.resume__item::after{
+    content: '';
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 2px solid $darkBlue;
+    background-color: $grey;
+    position: absolute;
+    left: -9px;
+    top: 0;
+}
+.resume__item--title {
+    color: $darkBlue;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.resume__item--year {
+    font-size: 14px;
+    color: $blue1;
+    margin-bottom: 10px;
+}
+.resume__item--text {
+    font-size: 16px;
+}
