@@ -839,7 +839,7 @@ body {
 }
 
 .project__title {
-  font-size: clamp(1rem, 0.818rem + 0.91vw, 1.5rem);
+  font-size: clamp(1.25rem, 1.068rem + 0.91vw, 1.75rem);
   font-weight: 500;
   text-align: justify;
   margin-bottom: 1rem;
@@ -852,8 +852,9 @@ body {
 }
 
 .project__desc {
-  font-size: clamp(1rem, 0.818rem + 0.91vw, 1.5rem);
+  font-size: clamp(0.875rem, 0.648rem + 1.14vw, 1.5rem);
   color: #1b263b;
+  margin-bottom: 20px;
 }
 @media screen and (max-width: 480px) {
   .project__desc {
@@ -863,7 +864,7 @@ body {
 
 .project__stack {
   color: #0d1b2a;
-  font-size: clamp(1rem, 0.818rem + 0.91vw, 1.5rem);
+  font-size: clamp(0.875rem, 0.648rem + 1.14vw, 1.5rem);
   margin-bottom: 1rem;
 }
 
